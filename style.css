@@ -145,7 +145,9 @@ html
 }
 .Arrows-down
 {
-    position: relative;
+    position: absolute;
+    top: 90%;
+    margin-left: -20px;
     z-index: 3;
     height: 40px;
     width: 40px;
@@ -628,7 +630,7 @@ html
 /* Media Queriers*/
 
 /* 420px */
-@media all and (max-width: 420px)
+@media all and (max-width: 480px)
 {
     .Hero-text
     {
@@ -641,7 +643,6 @@ html
     .Info-header-box
     {
         width: 100%;
-        height: 65px;
         font-size: 3.5vw;
         margin-bottom: 20px;
     }
@@ -757,7 +758,7 @@ html
     }
     .Contact-form-text
     {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     .Contact-form-submit
     {
@@ -766,7 +767,144 @@ html
     }
 }
 
-@media all and (max-width: 1150px)
+@media all and (max-width: 1150px) and (min-width: 501px)
 {
-
+    .Hero-text
+    {
+        font-size: 6vw;
+    }
+    .Info-button
+    {
+        left: 0%;
+    }
+    .Info-header-box
+    {
+        width: 100%;
+        height: 70px;
+        font-size: 4vw;
+        margin-bottom: 20px;
+    }
+    .Hero-text-small
+    {
+        font-size: 7vw;
+    }
+    .Hero-button-box
+    {
+       margin-top: 800px;
+    }
+    .Info-header-box h1
+    {
+        font-size: 3.5vw;
+        padding-top: 20px;
+    }
+    .Info-arrow-box
+    {
+        margin-top: -80px;
+    }
+    .Info-text-box
+    {
+        font-size: 2vw;
+    }
+    .Waves-solid0,.Waves-solid1
+    {
+        display: none;
+    }
+    .Offer
+    {
+        display: inline-block;
+        height: 1000px;
+    }
+    .Offer-header-box
+    {
+        width: 100%;
+        height: 65px;
+        font-size: 3.5vw;
+        margin-bottom: 20px;
+    }
+    .Offer-header-box h1
+    {
+        padding-top: 15px;
+        font-size: 3.5vw;
+    }
+    .First-card
+    {
+        position: relative;
+        margin: auto;
+        width: 65%;
+        height: 40%;
+        margin-bottom: 50px;
+        margin-left: 17.5%;
+    }
+    .First-card-text,.Second-card-text
+    {
+        padding: 50px;
+        font-size: 2.2vw;
+        margin-top: -40px;
+    }
+    .Second-card
+    {
+        position: relative;
+        margin: auto;
+        width: 65%;
+        height: 50%;
+        margin-left: 17.5%;
+    }
+    .Partnership
+    {
+        height: 1850px;
+    }
+    .Partnership-header-box
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 2vw;
+    }
+    .Partnership-first-card,.Partnership-second-card,.Partnership-third-card
+    {
+        position: relative;
+        width: 65%;
+        margin-left: 17.5%;
+    }
+    .Partnership-card-text,.Partnership-third-card-text
+    {
+        font-size: 2.2vw;
+        text-align: center;
+        padding: 50px;
+    }
+    .Partnership-card-header
+    {
+        padding-top: 40px;
+    }
+    .Contact
+    {
+        border: none;
+        border-radius: 0px;
+        width: 100%;
+        margin-top: 0px;
+        height: 1380px;
+    }
+    .Contact-map
+    {
+        width: 100%;
+        height: 400px;
+    }
+    form
+    {
+        margin-top: -80px;
+    }
+    .Contact-form
+    {
+       position: relative;
+       width: 100%;
+    }
+    .Contact-form-text
+    {
+        font-size: 2.50vw;
+    }
+    .Contact-form-submit
+    {
+       margin-top: 10px;
+       font-size: 4vw;
+    }
 }
+
